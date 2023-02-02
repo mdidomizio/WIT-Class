@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4D31939F"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="50"
+        android:rotationX="-30"
+        android:text="Hello World from the WIT class"
+        android:textColor="@color/purple_500"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="358dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="164dp"
+        android:backgroundTint="#3F51B5"
+        android:drawableTint="#15C5B4"
+        android:fontFamily="cursive"
+        android:rotation="26"
+        android:rotationX="34"
+        android:text="this is the new textView we have created"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="136dp"
+        android:background="#C32C2C"
+        android:backgroundTint="@android:color/black"
+        android:backgroundTintMode="screen"
+        android:text="click me"
+        android:textSize="20sp" />
+
+</FrameLayout>
